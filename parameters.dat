@@ -1,0 +1,10 @@
+# Parameter file for .py simulation script. 
+# The file contains:
+#	1) RPL simulation parameters (dep_edge_efield_mag [V/cm], T [K], avalanche_threshold [A])
+#	2) Random walk simulation parameters (randwalk_maxtime [sec], randwalk_minsteps [#], RPL_timestep [sec])
+#	3) Device geometry (x_core_left [cm], x_core_right [cm], wg_rib_y_coord [cm], y_slice [cm])
+#   4) Junction code: 'IV' for Inside (rib) Vertical, 'OV' for Outside (rib) Vertical.
+
+#Format: dep_edge_efield_mag [V/cm] | T [K] | avalanche_threshold [A] | randwalk_maxtime [sec] | randwalk_minsteps [#]| RPL_timestep [sec] | x_core_left [cm] | x_core_right [cm] | wg_rib_y_coord [cm] | y_slice [cm] | jnc_code
+
+1e5 243 2e-5 10e-9 50 1e-14 -4.5e-5 4.5e-5 1e-5 -0.825e-5 OV
